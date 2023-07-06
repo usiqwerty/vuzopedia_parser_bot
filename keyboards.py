@@ -4,9 +4,9 @@ buttons_search={"vuz_inp":"Выбрать вуз",
 		 "prog_inp":"Выбрать программу",
 		 "balls_inp":"Ввести баллы",
 		"search_1":"Искать"}
-buttons_vuz= {'vuz_save':'Сохранить', 'search':'Назад', "vuz_reset":'Очистить'}
-buttons_prog={'prog_save':'Сохранить', 'search':'Назад', "prog_reset":'Очистить'}
-buttons_ball={'balls_save':'Сохранить', 'search':'Назад', 'balls_reset':"Очистить"}
+buttons_vuz= {'save':'Сохранить', 'search':'Назад', "vuz_reset":'Очистить'}
+buttons_prog={'save':'Сохранить', 'search':'Назад', "prog_reset":'Очистить'}
+buttons_ball={'save':'Сохранить', 'search':'Назад', 'balls_reset':"Очистить"}
 
 def keyboard_more_builder(first:int, last:int) -> InlineKeyboardMarkup:
 	kb_more = []
